@@ -1,0 +1,24 @@
+# Go
+*.exe
+*.test
+*.out
+vendor/
+
+# Node / React
+node_modules/
+dist/
+build/
+
+# Env and config
+.env
+.env.local
+
+# Logs
+*.log
+
+# IDE
+.vscode/
+.idea/
+
+# System
+.DS_Store
