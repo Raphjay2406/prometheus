@@ -14,7 +14,7 @@ Prometheus is a full-stack Human Resources Management System (HRIS) designed to 
 
 ### Frontend
 * **Framework:** React (Create React App)
-* **UI Library:** Chakra UI
+* **UI Library:** MUI
 * **Routing:** React Router v6
 * **API Client:** Axios
 * **State Management:** (To be determined - Context API or Redux/Zustand)
