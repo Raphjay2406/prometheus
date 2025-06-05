@@ -1,24 +1,24 @@
-# Go
-*.exe
-*.test
-*.out
-vendor/
+/backend/go.sum
+/backend/go.mod
+/backend/bin/
+/backend/vendor/
+/backend/.env
 
-# Node / React
-node_modules/
-dist/
-build/
+/frontend/node_modules/
+/frontend/build/
+/frontend/.env
 
-# Env and config
 .env
-.env.local
-
-# Logs
-*.log
-
-# IDE
-.vscode/
-.idea/
-
-# System
 .DS_Store
+*.log
+/tests/backend/coverage/
+/tests/frontend/coverage/
+
+# Docker
+docker-compose.yml
+!docker-compose.yml.example # If you have one for reference
+docker-compose.*.override.yml
+*.env
+
+# VS Code
+.vscode/

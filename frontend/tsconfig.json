@@ -1,0 +1,31 @@
+
+{
+  "compilerOptions": {
+    "target": "es6", // Or "es5" if targeting older browsers
+    "lib": [
+      "dom",
+      "dom.iterable",
+      "esnext"
+    ],
+    "allowJs": true,
+    "skipLibCheck": true,
+    "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true,
+    "strict": true,
+    "forceConsistentCasingInFileNames": true,
+    "noFallthroughCasesInSwitch": true,
+    "module": "esnext",
+    "moduleResolution": "node", // Or "bundler" for newer TS versions
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "noEmit": true,
+    "jsx": "react-jsx",
+    "baseUrl": "src" // Allows for cleaner imports from 'src' like 'components/MyComponent'
+  },
+  "include": [
+    "src" // Tells TypeScript to only check files within the 'src' folder
+  ],
+  "exclude": [
+    "node_modules"
+  ]
+}
